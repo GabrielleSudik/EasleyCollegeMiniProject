@@ -12,9 +12,10 @@ namespace EasleyCollegeMiniProject.Models
         [Key]
         public int ID { get; set; }
         public string Name { get; set; }
-        [DisplayName("Birthday")]
+        [DisplayName("Birthdate")]
         public DateTime DOB { get; set; }
         public string contact { get; set; }
+        [DisplayName("Lives on campus?")]
         public bool onCampus { get; set; }
         [DisplayName("Enrollment Date")]
         public DateTime enrollmentDate { get; set; }

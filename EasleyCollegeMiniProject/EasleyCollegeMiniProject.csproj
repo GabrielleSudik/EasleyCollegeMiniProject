@@ -170,6 +170,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710172309222_InitialCreate.cs" />
+    <Compile Include="Migrations\201710172309222_InitialCreate.Designer.cs">
+      <DependentUpon>201710172309222_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710182215017_PracticeTime.cs" />
+    <Compile Include="Migrations\201710182215017_PracticeTime.Designer.cs">
+      <DependentUpon>201710182215017_PracticeTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Course_Student_Join.cs" />
     <Compile Include="Models\EasleyCollegeMiniProjectContext.cs" />
@@ -253,6 +262,14 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710172309222_InitialCreate.resx">
+      <DependentUpon>201710172309222_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710182215017_PracticeTime.resx">
+      <DependentUpon>201710182215017_PracticeTime.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
