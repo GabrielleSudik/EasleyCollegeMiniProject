@@ -1,3 +1,4 @@
+
 namespace EasleyCollegeMiniProject.Migrations
 {
     using System;
